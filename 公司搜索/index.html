@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>表格搜索与排序</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <input type="text" id="searchInput" placeholder="输入公司名进行搜索">
+  <table id="myTable">
+    <thead>
+      <tr>
+        <th onclick="sortTable(0)">公司名称</th>
+        <th onclick="sortTable(1)">国家</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Berglunds snabbkop</td>
+        <td>Sweden</td>
+      </tr>
+      <tr>
+        <td>Island Trading</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>Koniglich Essen</td>
+        <td>Germany</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
